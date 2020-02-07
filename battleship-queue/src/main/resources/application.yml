@@ -1,0 +1,15 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: battleship-queue
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: queue.start-game.messages
