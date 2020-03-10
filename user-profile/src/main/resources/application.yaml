@@ -1,0 +1,18 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: user-profile
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+org:
+  neo4j:
+    driver:
+      uri: bolt://localhost:7687
+      authentication:
+        username: neo4j
+        password: secret
