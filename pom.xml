@@ -11,6 +11,7 @@
     <groupId>com.microservices.tournamentx</groupId>
     <artifactId>parent-project-micotournamentx</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
     <name>parent-project-micotournamentx</name>
     <description>Parent project for MicroTournamentX</description>
 
