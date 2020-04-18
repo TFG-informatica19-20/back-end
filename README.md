@@ -1,3 +1,6 @@
+![Java CI with Maven](https://github.com/TFG-informatica19-20/back-end/workflows/Java%20CI%20with%20Maven/badge.svg?branch=master)
+[![codecov](https://codecov.io/gh/TFG-informatica19-20/back-end/branch/master/graph/badge.svg)](https://codecov.io/gh/TFG-informatica19-20/back-end)
+
 # back-end
 
 Aquest repositori contindrà en diferents subcarpetes el conjunt de microserveis que conformen l'aplicació.
